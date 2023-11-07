@@ -76,8 +76,8 @@ var mapa_calor = L.easyButton('<img src="icono/heatmap.png" align="absmiddle" he
                heatLayer = null; // Reinicia la variable
              } else {
                // Si el mapa de calor está desactivado, actívalo
-               heatLayer = L.heatLayer([[capa._layers[94]._latlng.lat, capa._layers[94]._latlng.lng, 10]], { radius: 50 }).addTo(map);
-               for (var i = 96; i < 111; i++) {
+               heatLayer = L.heatLayer([[capa._layers[62]._latlng.lat, capa._layers[62]._latlng.lng, 10]], { radius: 50 }).addTo(map);
+               for (var i = 64; i < 79; i++) {
                  heatLayer.addLatLng([capa._layers[i]._latlng.lat, capa._layers[i]._latlng.lng, 10], { radius: 25 });
                }
              }
