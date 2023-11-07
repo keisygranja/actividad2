@@ -1,0 +1,36 @@
+*{	
+    padding: 0% ;
+    margin: 0% 0%;		
+}
+
+html, body{
+height:100% ;
+width:100% vw;
+}
+
+#contenedor{
+    background-color: blue;
+    height: 60px;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+#map{
+
+    width:100%;
+    height:90%;
+}
+
+
+#norte{
+	position:fixed;
+	width:2%;
+	left: 3%;
+	padding: 1.2%;
+}

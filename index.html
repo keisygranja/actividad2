@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <link rel="stylesheet" href="geocodificar/l.geosearch.css">
+    <link rel="stylesheet" href="leaflet-locatecontrol-gh-pages/dist/L.Control.Locate.mapbox.min.css">
+    <link rel="stylesheet" href="Leaflet-MiniMap-master/dist/Control.MiniMap.min.css">
+    <link rel="stylesheet" href="leaflet-control-window-master/src/L.Control.Window.css">
+    <script src="geocodificar/l.geosearch.provider.esri.js"></script>
+    <script src="geocodificar/leaflet-search.js"></script>
+    <script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
+    <script src="leaflet-locatecontrol-gh-pages/dist/L.Control.Locate.min.js"></script>
+    <script src="leaflet-control-window-master/src/L.Control.Window.js"></script>
+    <script src="leaflet-heat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.4.0/easy-button.css" />
+	<script src="geocodificar/l.control.geosearch.js"></script>
+    <script src="geocodificar/leaflet-search.js"></script>
+    <script src="geocodificar/l.geosearch.provider.esri.js"></script>
+
+    <title>Geovisor</title>
+</head>
+<header>
+    <div id="contenedor">
+        <h1><b>Espacios deportivos</b> </h1>
+    </div>
+</header>
+<body>
+
+    <div id="map" style="z-index: 0;">
+        <img id="norte" src="icono/norte.png" style="z-index:9999" ></img>
+    </div>
+    <script src="capa/puntos_dep.js"></script>
+    <script src="capa/comunas.js"></script>
+    <script src="index.js"></script>
+</body>
+
+
+</html>
